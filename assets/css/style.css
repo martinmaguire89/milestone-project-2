@@ -7,7 +7,7 @@
     padding-left: 0px;
 }
 .logo {
-    background: url("../images/dog2.jpeg");
+    background: url("../images/dogonhols.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,3 +16,14 @@
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+/* background image to cover whole page*/
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+/* this was found on css-tricks.com via stack overflow*/
