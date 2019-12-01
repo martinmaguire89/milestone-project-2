@@ -12,7 +12,9 @@ function initMap() {
       var markers = [
         {
           coords:{lat:54.600783,lng:-5.923918},
-          content:'<h1>https://www.malmaison.com/locations/belfast/</h1>'
+          content:'<h3>Malmasion Hotel</h3>' +
+                '<p>See link to your favourite doggy Hotel: <a target="_blank " href="https://www.malmaison.com">' +
+				'https://www.malmaison.com</a></p>'
          },
         {
           coords:{lat:42.8584,lng:-70.9300},
