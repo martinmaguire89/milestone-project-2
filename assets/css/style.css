@@ -1,4 +1,14 @@
-
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 3.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration-line: underline;
+    /* color: aqua; */
+}
 .navbar-header {
     font-family: 'Fugaz One', cursive;
     position: initial;
@@ -12,7 +22,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -30,7 +39,21 @@
 /* this was found on css-tricks.com via stack overflow*/
 div#map {min-height: 360px;}
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fcfce4;
+    border: 1px solid #d5ab99;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
