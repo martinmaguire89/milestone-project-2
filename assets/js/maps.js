@@ -4,10 +4,17 @@ function initMap() {
         zoom:8,
         center:{lat:54.787716,lng:-6.492314}
       }
+      
 
       // New map
       var map = new google.maps.Map(document.getElementById('map'), options);
-      //54.600783, -5.923918
+
+      google.maps.event.addDomListener(document.getElementById('antrim'), 'click', function () {
+
+        map.setCenter(new google.maps.LatLng(55.965902,-3.202487));
+        });
+
+      
       // Array of markers
       var markers = [
         {
