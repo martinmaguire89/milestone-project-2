@@ -8,14 +8,45 @@ function initMap() {
 
       // New map
       var map = new google.maps.Map(document.getElementById('map'), options);
-
+        //buttons added to chnage the center of the map to specific county. code solution found on stack overflow//
       google.maps.event.addDomListener(document.getElementById('antrim'), 'click', function () {
 
-        map.setCenter(new google.maps.LatLng(55.965902,-3.202487));
+        map.setCenter(new google.maps.LatLng(54.980650,-6.119997));
+        map.setZoom(9);
         });
 
+         google.maps.event.addDomListener(document.getElementById('armagh'), 'click', function () {
+
+        map.setCenter(new google.maps.LatLng(54.351817,-6.654049));
+        map.setZoom(10);
+        });
+
+         google.maps.event.addDomListener(document.getElementById('derry'), 'click', function () {
+
+        map.setCenter(new google.maps.LatLng(54.917585,-6.916701));
+        map.setZoom(10);
+        });
+
+         google.maps.event.addDomListener(document.getElementById('down'), 'click', function () {
+
+        map.setCenter(new google.maps.LatLng(54.378840, -5.750582));
+        map.setZoom(10);
+        });
+
+         google.maps.event.addDomListener(document.getElementById('fermanagh'), 'click', function () {
+
+        map.setCenter(new google.maps.LatLng(54.420865,-7.594607));
+        map.setZoom(10);
+        });
+
+         google.maps.event.addDomListener(document.getElementById('tyrone'), 'click', function () {
+
+        map.setCenter(new google.maps.LatLng(54.603471, -7.300509));
+        map.setZoom(10);
+        });
+        //buttons added to chnage the center of the map to specific county. code solution found on stack overflow//
       
-      // Array of markers
+      // Array of markers showing places to stay that are dog friendly
       var markers = [
         {
           coords:{lat:54.600783,lng:-5.923918},
@@ -111,6 +142,7 @@ function initMap() {
 				'http://www.travelodge.ie/hotels/225/Derry-hotel</a></p>'
          },
       ];
+      // Array of markers showing places to stay that are dog friendly
 
       // Loop through markers
       for(var i = 0;i < markers.length;i++){
