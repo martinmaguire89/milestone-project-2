@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <style>@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');</style>
-
+    
+   <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_S7qQXGRQYZyX5Pk3qktHb");
+        })();
+    </script>
 </head>
 <body>
 <img src="images/dog-paw.jpg" id="bg" alt ="">
@@ -41,43 +47,65 @@
 			<h3>Search by Counties</h3>
 		</div>
 	</div>
+	
+            <div class="row justify-content-center">
+                <div class="col-xs-6 col-sm-2">				
+                    <a href="#" class="btn btn-warning" id="antrim">Antrim</a>			
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="btn btn-warning" id="armagh">Armagh</a>		
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="btn btn-warning" id="derry">Derry</a>			
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="btn btn-warning" id="down">Down</a>		
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="btn btn-warning" id="fermanagh">Fermanagh</a>		
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="btn btn-warning" id="tyrone">tyrone</a>
+                </div>
 
-	<div class="row justify-content-center">
-		<div class="col-sm-2 col-12">				
-			<a href="#" class="btn btn-warning" id="antrim">Antrim</a>			
-		</div>
-		<div class="col-sm-2 col-12">
-			<a href="#" class="btn btn-warning" id="armagh">Armagh</a>		
-		</div>
-		<div class="col-sm-2 col-12">
-			<a href="#" class="btn btn-warning" id="derry">Derry</a>			
-		</div>
-		<div class="col-sm-2 col-12">
-			<a href="#" class="btn btn-warning" id="down">Down</a>		
-		</div>
-        <div class="col-sm-2 col-12">
-			<a href="#" class="btn btn-warning" id="fermanagh">Fermanagh</a>		
-		</div>
-        <div class="col-sm-2 col-12">
-			<a href="#" class="btn btn-warning" id="tyrone">tyrone</a>
-		</div>
-
-	</div>
-
+            </div>
+ <!----div that contains the msp from google maps api--->
 <div class="container">
     
 		<div id="map"></div>
 </div>
-
-<secion class="container-fluid">
+ <!----contact form connected to emal.js to allow me to recieve emails--->
+ <section class="container-fluid">
+        <div class="col-12 page-header " id="contact-me">
+            <h2 class="text-uppercase ">Contact Me:</h2>
+            <hr class="block-divider block-divider--short ">
+        </div>
+        <section class="container ">
+            <div class="row bg-color-contact justify-content-sm-center justify-content-md-around ">
+                <div class="col ">
+                    <h4 class="contact-heading uppercase text-center ">want to have your establishment added to our map of dog friendly locations?</h4>
+                    <h5 class="uppercase text-center ">Contact me below!</h5>
+                    <div class="center-form">
+                <form onsubmit="return sendMail(this);">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="what can you offer our four legged friends!" required></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Submit!</button>
+                </form>
+            </div>
+                </div>
+            </div>
+        </section>
         
-    </section>
+    
     <footer> 
+    </footer> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcUyw63i0ktNIA1SqJChYuM360STdANmw&callback=initMap"async defer></script>
     <script src="assets/js/maps.js"></script>
+    <script src ="assets/js/sendEmail.js"></script>
 </body>
 </html>
