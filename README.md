@@ -75,7 +75,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 ### How to run this project locally
 If you wish to clone this project from GitHub:
-* Click on this [link](https://github.com/martinmaguire89/milestone-project-1/blob/master/milestone-project-1-wireframe.pdf) to the GitHub repository.
+* Click on this [link](https://github.com/martinmaguire89/milestone-project-2) to the GitHub repository.
 * There is a green button saying "Clone or download" on the right-hand side, click on this.
 * Next copy the clone URL for the repository that is provided.
 * Open Git Bash in your local IDE.
