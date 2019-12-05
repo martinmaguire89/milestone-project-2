@@ -7,7 +7,7 @@ My second milestone project is an interactive front-end site. The site allows po
 ## UX
 ### Who is the target audience?
 *	This website is for people wanting to take a holiday but also bring there pet with them.
-*	holiday makers from the south of ireland and gret britain looking for a posisble city break with their dog.
+*	Holiday makers from the south of ireland and great Britain looking for a posisble city break with their dog.
 
 ### How does this attract our target audience?
 The user gets a brief outline about what the pawcation website is about, what exactly is shown on the website and what it has to offer. The typography was designed to be fun and eye catching for dog lovers when they visit the site. A single page website makes it easy to navigate to the map to search for their desired destination. The info window is easy for the user to select and the link to the website makes it simple for them to check out the hotel and obtain more info. 
@@ -17,7 +17,7 @@ The user gets a brief outline about what the pawcation website is about, what ex
 *	As a user, I want to have an easy way to get further information on the hotel and possibly book.
 *	As a user, I want an easy contact method if I wish for my establishment to be added to the website. 
 ## Wireframe
-* link to my [balsamiq wireframe](https://github.com/martinmaguire89/milestone-project-2/blob/master/milestone%20project-2.pdf)
+* Link to my [balsamiq wireframe](https://github.com/martinmaguire89/milestone-project-2/blob/master/milestone%20project-2.pdf)
 *	I decided to use Balsamiq to create my wireframe because it was recommended in the milestone project and by code institute mentors on slack.
 
 ## Technologies used
@@ -62,6 +62,7 @@ Allows the customer to connect and follow me through my social media accounts.
 * On certain screen sizes smaller than a large view all sections where being pushed to the left leaving a long blue column down the right making the page look unappealing of smaller screens. This was due to the YouTube videos no being responsive. I used iframe css to make the videos become more responsive when on smaller screen to the original size of the videos.
 * The pictures of the hurls where leaking over into the next container and stretching passed their container when on smaller screen sizes. I used flex classes from bootstrap to allow for a more responsive and flowing change to how many pictures where on each row. This allowed for all picture to stay with their container. 
 * When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it. I copied and pasted the code and it added the necessary code to fix this.
+
 ## Deployment
 The website was developed using Gitpod, it was then committed to git and pushed to GitHub using the terminal in Gitpod.
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
@@ -83,6 +84,7 @@ If you wish to clone this project from GitHub:
 * Type git clone, and then paste the URL copied in Step 3.
 git clone https://github.com/USERNAME/REPOSITORY
 * Press Enter to create your local clone.
+
 ## Credits
 ### Content
 All content on the page was written by me.
