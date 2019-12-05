@@ -7,7 +7,7 @@ My second milestone project is an interactive front-end site. The site allows po
 ## UX
 ### Who is the target audience?
 *	This website is for people wanting to take a holiday but also bring there pet with them.
-*	Holiday makers from the south of ireland and great Britain looking for a posisble city break with their dog.
+*	Holiday makers from the south of ireland and Great Britain looking for a posisble city break with their dog.
 
 ### How does this attract our target audience?
 The user gets a brief outline about what the pawcation website is about, what exactly is shown on the website and what it has to offer. The typography was designed to be fun and eye catching for dog lovers when they visit the site. A single page website makes it easy to navigate to the map to search for their desired destination. The info window is easy for the user to select and the link to the website makes it simple for them to check out the hotel and obtain more info. 
