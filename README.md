@@ -6,8 +6,8 @@ My second milestone project is an interactive front-end site. The site allows po
 
 ## UX
 ### Who is the target audience?
-*	This website is for people wanting to take a holiday but also bring there pet with them.
-*	Holiday makers from the south of ireland and Great Britain looking for a posisble city break with their dog.
+*	This website is for people wanting to take a holiday but also bring their pet with them.
+*	Holiday makers from the south of Ireland and Great Britain looking for a possible city break with their dog.
 
 ### How does this attract our target audience?
 The user gets a brief outline about what the pawcation website is about, what exactly is shown on the website and what it has to offer. The typography was designed to be fun and eye catching for dog lovers when they visit the site. A single page website makes it easy to navigate to the map to search for their desired destination. The info window is easy for the user to select and the link to the website makes it simple for them to check out the hotel and obtain more info. 
@@ -38,7 +38,7 @@ The large dog picture is designed to show a fun and welcoming side of the web pa
 ### Feature 2 –  Paragraph section.
 The small paragraph is just a few lines to let the customer know what this page is about and how the needs of them and their dogs will be catered for. 
 ### Feature 4 – Search by counties.
-The search by counties allows the user to narrow down the search field on the map. If they are looking to search for dog friendly hotels in a specific county they can simply do that at the click of the button.  
+The search by counties allows the user to narrow down the search field on the map. If they are looking to search for dog friendly hotels in a specific county, they can simply do that at the click of the button.  
 ### Feature 5 – The map section.
 The maps section allows for a complete look of all potential place to stay with a dog in Northern Ireland.   The markers section allows for them to see where the hotels are and the info window provides them with a link to the hotel for making a booking. 
 ### Feature 6 – Contact Form.
@@ -47,22 +47,22 @@ Allows potential owners of hotel or restaurants to contact me to advise of what 
 Allows the customer to connect and follow me through my social media accounts.
 
 ## Features Left to Implement
-* I would like to add a page for previous user to leave a review of their recent stay at dog friendly hotels to allow other users to know how they got on staying with there dog. This will improve there decision making when trying to decide where to stay.
+* I would like to add a page for previous user to leave a review of their recent stay at dog friendly hotels to allow other users to know how they got on staying with there dog. This will improve their decision making when trying to decide where to stay.
 * Personalised markers to differentiate between what markers are for places to stay, places to eat where dogs are allowed and both. 
 * A further API added to the page to hotel booking site such as Booking.com to allow the user to see the prices of a night’s stay and potentially book rather than having to leave the webpage.  
 
 ## Testing
-* Used Google Chrome developer tools to test website responsiveness across multiple devices such as Tablets, Mobiles and laptop.this allowed me to see any issue's with sizing in diffenr version control.
-*  I used different web browsers such as Microsoft edge and Firefox to test how my page would run on different web browsers. I then used each responsive tools in each browser to again test my version control to see if it would still work effectively or if I would encounter any problems. 
+* Used Google Chrome developer tools to test website responsiveness across multiple devices such as Tablets, Mobiles and laptop. This allowed me to see any issue's with sizing in different version control.
+*  I used different web browsers such as Microsoft edge and Firefox to test how my page would run on different web browsers. I then used each responsive tool in each browser to again test my version control to see if it would still work effectively or if I would encounter any problems. 
 * Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS. I copied my code and pasted it into the validator to check for errors and warnings.
 * I tested each button when adding the JavaScript for each of them. Once one worked, I tested if it was still working on smaller screens and if there were any delay when clicked. Once I sorted this, I used the same JavaScript for each button to change the centre of the map to a specific location when clicked.
 * I used [cssautoprefixer](https://autoprefixer.github.io/) to help get the appropriate vendor prefixes needed for my code to work in all browsers.
 * Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS. I copied my code and pasted it into the validator to check for errors and warnings.
 
 ## Issues when Testing
-* On certain screen sizes smaller than a large view all the heading where beign pushed to the left along with the submit button. I corrected this by text centering all headidng an the submit so that if flowed nicley when going to smaller screens and remaiend in the middle.
+* On certain screen sizes smaller than a large view all the heading where being pushed to the left along with the submit button. I corrected this by text centring all heading and the submit so that if flowed nicely when going to smaller screens and remained in the middle.
 * The pawcation header was slightly to the left of the screen on all screen sizes. When testing this I found the navbar- heading was set with 15px padding right and 0 padding left. I fixed this by changing the padding to 15 px on the left too. This ensure it remained centred on all screen sizes.
-* when I reduced the screen to anything smaller than large screen size I noticed that all my button where being stacked on top of each other in a column. Also, the last two buttons where overlapping each other. This did not look pleasing on the eye. Speaking with my mentor he suggested I use a flexbox for my buttons. I used a flex-container to wrap my buttons which allowed for appropriate spacing between them stopping the overlapping. It also meant when I went to a smaller screen size the buttons where responsive and fitted appropriately onto two line.
+* when I reduced the screen to anything smaller than large screen size, I noticed that all my button where being stacked on top of each other in a column. Also, the last two buttons where overlapping each other. This did not look pleasing on the eye. Speaking with my mentor he suggested I use a flexbox for my buttons. I used a flex-container to wrap my buttons which allowed for appropriate spacing between them stopping the overlapping. It also meant when I went to a smaller screen size the buttons where responsive and fitted appropriately onto two line.
 * when moving to smaller screens i noticed the large picture at that op of the page caused everything to move down and leave a big gap between the picture and paragraph. I noticed that I had the min height of the picture set to 360px in my css. I removed this and this allowed the rest of the page ot move up and leave no unnecessary gaps.
 * One issue I had with the JavaScript was adding info windows. As the code I found from Traversy media you tube video was different I had to change my code from the previous code institute video for rendering the map on the page to allow me to insert the info window.  Once I done this however it allowed me to insert info windows with no issues. 
 * When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it. I copied and pasted the code and it added the necessary code to fix this.
