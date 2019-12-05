@@ -5,19 +5,18 @@ Please click on link to see my full working webpage for [Pawcation](https://mart
 My second milestone project is webpage with .
 ## UX
 ### Who is the target audience?
-*	A person who plays hurling.
-*	Local clubs interested in buying handmade stick for their players.
-*	People looking for authentic handmade hurley stick and other wooden plaques or keyrings. 
+*	This website is for people wanting to take a holiday but also bring there pet with them
+*	holiday makers from the south of ireland and gret britain looking for a posisble city break with their dog.
+
 ### How does this attract our target audience?
-The user gets a brief outline about the maker of their hurls, what they are made out of and what items are available to order.  They then get access to a gallery of work completed and the range and types of hurls, plaques and helmet making and repairs. This allows them to see the quality of the craftmanship.  A brief video of the history of hurley making to show how this historic art is crafted and more about the man creating them and his passion for it.
-There is a contact form at the bottom of the page for the customer to make contact for further questions and potential orders. The social media links allows the customer to follow and see more up to date goings on with the hurley maker.
+The user gets a brief outline about what the pawcation website is about, what exactly is shown on the website and what it has to offer. The typography was designed to be fun and eye catching for dog lovers when they visit the site. A single page website makes it easy to navigate to the map to search for their desired destination. The info window is easy for the user to select and the link to the website makes it simple for them to check out the hotel and obtain more info. 
 ## User Stories
-*	As a user, I want to know if these are authentic handmade hurls.
-*	As a user, I want to know what wood is used.
-*	As a user, I want to see previous work.
-*	As a user, I want to be able to make contact easily.
+*	As a user, I want pleasing to the eye
+*	As a user, I want it to be easy to navigate
+*	As a user, I want to have an easy way to get further information on the hotel and possibly book.
+*	As a user, I want an easy contact method if I wish for my establishment to be added to the website. 
 ## Wireframe
-* link to my [balsamiq wireframe](https://github.com/martinmaguire89/milestone-project-1/blob/master/milestone-project-1-wireframe.pdf)
+* link to my [balsamiq wireframe](https://github.com/martinmaguire89/milestone-project-2/blob/master/milestone%20project-2.pdf)
 *	I decided to use Balsamiq to create my wireframe because it was recommended in the milestone project and by code institute mentors on slack.
 
 ## Technologies used
