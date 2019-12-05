@@ -27,7 +27,7 @@ The user gets a brief outline about what the pawcation website is about, what ex
 *	[jQuery](https://jquery.com/) - To make certain features function on the page.
 *	[git](https://github.com/)- Used as a repository
 *	[Gitpod](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki)- Used for a development and testing area.
-*	[Bootstrap](https://www.bootstrapcdn.com/) - Bootstrap framework to create responsive design and 
+*	[Bootstrap](https://www.bootstrapcdn.com/) - Bootstrap framework to create responsive design.
 *	[fontawesome](https://fontawesome.com/) for social media icons.
 *	[google.maps javascript api](https://developers.google.com/maps/documentation/javascript/tutorial) used to get my api key and render my map onto the webpage. Also used for adding markers and info windows.
 *	[email.js](https://www.emailjs.com/) used to connect my contact form with my gmail to be notified when someone sends a request. 
