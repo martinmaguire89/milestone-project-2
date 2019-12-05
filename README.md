@@ -52,11 +52,12 @@ Allows the customer to connect and follow me through my social media accounts.
 * A further API added to the page to hotel booking site such as Booking.com to allow the user to see the prices of a night’s stay and potentially book rather than having to leave the webpage.  
 
 ## Testing
-* Used Google Chrome developer tools to test website responsiveness across multiple devices such as Tablets and Mobiles.
-* Tested that the nav links worked and took they customer to the desired section of the website. Tests on all device sizes when in ‘burger icon’. 
+* Used Google Chrome developer tools to test website responsiveness across multiple devices such as Tablets, Mobiles and laptop.this allowed me to see any issue's with sizing in diffenr version control.
+*  I used different web browsers such as Microsoft edge and Firefox to test how my page would run on different web browsers. I then used each responsive tools in each browser to again test my version control to see if it would still work effectively or if I would encounter any problems. 
 * Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS. I copied my code and pasted it into the validator to check for errors and warnings.
 * Tested the contact form for the required attribute. With this attribute it will not let you submit the form with the required information. To test this, I tried to send the form without the required information but was not let until all information was given correctly.
-* I used [cssautoprefixer](https://autoprefixer.github.io/) to help get the appropriate vendor prefixes needed for my code to work in all browsers. I tested this on Google Chrome, Microsoft Edge and Mozilla.
+* I used [cssautoprefixer](https://autoprefixer.github.io/) to help get the appropriate vendor prefixes needed for my code to work in all browsers.
+* Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS. I copied my code and pasted it into the validator to check for errors and warnings.
 
 ## Issues when Testing
 * On certain screen sizes smaller than a large view all sections where being pushed to the left leaving a long blue column down the right making the page look unappealing of smaller screens. This was due to the YouTube videos no being responsive. I used iframe css to make the videos become more responsive when on smaller screen to the original size of the videos.
