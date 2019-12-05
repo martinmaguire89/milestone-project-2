@@ -11,8 +11,8 @@ My second milestone project is webpage with .
 ### How does this attract our target audience?
 The user gets a brief outline about what the pawcation website is about, what exactly is shown on the website and what it has to offer. The typography was designed to be fun and eye catching for dog lovers when they visit the site. A single page website makes it easy to navigate to the map to search for their desired destination. The info window is easy for the user to select and the link to the website makes it simple for them to check out the hotel and obtain more info. 
 ## User Stories
-*	As a user, I want pleasing to the eye
-*	As a user, I want it to be easy to navigate
+*	As a user, I want the initial page to be eye catching.
+*	As a user, I want it to be easy to navigate.
 *	As a user, I want to have an easy way to get further information on the hotel and possibly book.
 *	As a user, I want an easy contact method if I wish for my establishment to be added to the website. 
 ## Wireframe
@@ -32,16 +32,19 @@ The user gets a brief outline about what the pawcation website is about, what ex
 *	[email.js](https://www.emailjs.com/) used to connect my contact form with my gmail to be notified when someone sends a request. 
 
 ## Features
-### Feature 1 – Navigation Bar
-The navigation bar to take the customers direct to certain features on the website. This collapses into a 'burger icon' dropdown menu in mobile screen sizes to reduce over-crowding and give smaller screen sizes a nicer look.
-### Feature 2 – Gallery
-Customers can see how previous pieces of work the maker has crafted and range of hurls available. 
-### Feature 4 – Embedded Video
-Let’s the customer see the history of hurley making and find out more about the maker and his passion for making authentic hand-crafted hurls. 
-### Feature 5 – Contact Form
-Allows potential customers to ask questions about pieces in the gallery or to start the process of ordering a piece.
-### Feature 6 – Social media icons in footer
-Allows the customer to connect and follow the craftsman’s other pages.
+### Feature 1 – Large dog picture.
+The large dog picture is designed to show a fun and welcoming side of the web page. It’s used to provoke the image of their own dog enjoying themselves on holiday with the owner. It show’s them that this is a fun and easy to use website that will serve their needs.
+### Feature 2 –  Paragraph section.
+The small paragraph is just a few lines to let the customer know what this page is about and how the needs of them and their dogs will be catered for. 
+### Feature 4 – Search by counties.
+The search by counties allows the user to narrow down the search field on the map. If they are looking to search for dog friendly hotels in a specific county they can simply do that at the click of the button.  
+### Feature 5 – The map section.
+The maps section allows for a complete look of all potential place to stay with a dog in Northern Ireland.   The markers section allows for them to see where the hotels are and the info window provides them with a link to the hotel for making a booking. 
+### Feature 6 – Contact Form.
+Allows potential owners of hotel or restaurants to contact me to advise of what they offer for dogs and to have them establishment added to the map.  
+### Feature 7 – Social media icons in footer.
+Allows the customer to connect and follow me through my social media accounts.
+
 ## Features Left to Implement
 * Add a payment feature for sticks available.
 * A review section to let people know of other customers experience when buying hurls form this maker.
