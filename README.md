@@ -55,7 +55,7 @@ Allows the customer to connect and follow me through my social media accounts.
 * Used Google Chrome developer tools to test website responsiveness across multiple devices such as Tablets, Mobiles and laptop.this allowed me to see any issue's with sizing in diffenr version control.
 *  I used different web browsers such as Microsoft edge and Firefox to test how my page would run on different web browsers. I then used each responsive tools in each browser to again test my version control to see if it would still work effectively or if I would encounter any problems. 
 * Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS. I copied my code and pasted it into the validator to check for errors and warnings.
-* Tested the contact form for the required attribute. With this attribute it will not let you submit the form with the required information. To test this, I tried to send the form without the required information but was not let until all information was given correctly.
+* I tested each button when adding the JavaScript for each of them. Once one worked, I tested if it was still working on smaller screens and if there were any delay when clicked. Once I sorted this, I used the same JavaScript for each button to change the centre of the map to a specific location when clicked.
 * I used [cssautoprefixer](https://autoprefixer.github.io/) to help get the appropriate vendor prefixes needed for my code to work in all browsers.
 * Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS. I copied my code and pasted it into the validator to check for errors and warnings.
 
