@@ -1,4 +1,4 @@
-# milestone-project-2
+# Milestone-project-2
 # Pawcation
 Please click on link to see my full working webpage for [Pawcation](https://martinmaguire89.github.io/milestone-project-2/).
 
@@ -47,9 +47,9 @@ Allows potential owners of hotel or restaurants to contact me to advise of what 
 Allows the customer to connect and follow me through my social media accounts.
 
 ## Features Left to Implement
-* Add a payment feature for sticks available.
-* A review section to let people know of other customers experience when buying hurls form this maker.
-* Create a section to share information about the art of Stick making and some events that the maker will have coming up at local hurley clubs clubs. 
+* I would like to add a page for previous user to leave a review of their recent stay at dog friendly hotels to allow other users to know how they got on staying with there dog. This will improve there decision making when trying to decide where to stay.
+* Personalised markers to differentiate between what markers are for places to stay, places to eat where dogs are allowed and both. 
+* A further API added to the page to hotel booking site such as Booking.com to allow the user to see the prices of a night’s stay and potentially book rather than having to leave the webpage.  
 
 ## Testing
 * Used Google Chrome developer tools to test website responsiveness across multiple devices such as Tablets and Mobiles.
