@@ -2,7 +2,7 @@
 # Pawcation
 Please click on link to see my full working webpage for [Pawcation](https://martinmaguire89.github.io/milestone-project-2/).
 
-My second milestone project is an interactive front-end site. The site allows potential users to interact with the site and search the map for places to stay that are dog friendly. The buttons allow for the user to narrow down their search for specific arrears in Northern Ireland. 
+My second milestone project is an interactive front-end site. The site allows potential users to interact with the site and search the map for places to stay that are dog friendly. The buttons allow for the user to narrow down their search for specific areas in Northern Ireland. 
 
 ## UX
 ### Who is the target audience?
@@ -10,7 +10,7 @@ My second milestone project is an interactive front-end site. The site allows po
 *	Holiday makers from the south of Ireland and Great Britain looking for a possible city break with their dog.
 
 ### How does this attract our target audience?
-The user gets a brief outline about what the pawcation website is about, what exactly is shown on the website and what it has to offer. The typography was designed to be fun and eye catching for dog lovers when they visit the site. A single page website makes it easy to navigate to the map to search for their desired destination. The info window is easy for the user to select and the link to the website makes it simple for them to check out the hotel and obtain more info. 
+The user gets a brief outline about what the Pawcation website is about, what exactly is shown on the website and what it has to offer. The typography was designed to be fun and eye catching for dog lovers when they visit the site. A single page website makes it easy to navigate to the map to search for their desired destination. The info window is easy for the user to select and the link to the website makes it simple for them to check out the hotel and obtain more info. 
 ## User Stories
 *	As a user, I want the initial page to be eye catching.
 *	As a user, I want it to be easy to navigate.
@@ -34,7 +34,7 @@ The user gets a brief outline about what the pawcation website is about, what ex
 
 ## Features
 ### Feature 1 – Large dog picture.
-The large dog picture is designed to show a fun and welcoming side of the web page. It’s used to provoke the image of their own dog enjoying themselves on holiday with the owner. It show’s them that this is a fun and easy to use website that will serve their needs.
+The large dog picture is designed to show a fun and welcoming side of the web page. It’s used to provoke the image of their own dog enjoying themselves on holiday with the owner. It shows them that this is a fun and easy to use website that will serve their needs.
 ### Feature 2 –  Paragraph section.
 The small paragraph is just a few lines to let the customer know what this page is about and how the needs of them and their dogs will be catered for. 
 ### Feature 4 – Search by counties.
@@ -61,9 +61,9 @@ Allows the customer to connect and follow me through my social media accounts.
 
 ## Issues when Testing
 * On certain screen sizes smaller than a large view all the heading where being pushed to the left along with the submit button. I corrected this by text centring all heading and the submit so that if flowed nicely when going to smaller screens and remained in the middle.
-* The pawcation header was slightly to the left of the screen on all screen sizes. When testing this I found the navbar- heading was set with 15px padding right and 0 padding left. I fixed this by changing the padding to 15 px on the left too. This ensure it remained centred on all screen sizes.
-* when I reduced the screen to anything smaller than large screen size, I noticed that all my button where being stacked on top of each other in a column. Also, the last two buttons where overlapping each other. This did not look pleasing on the eye. Speaking with my mentor he suggested I use a flexbox for my buttons. I used a flex-container to wrap my buttons which allowed for appropriate spacing between them stopping the overlapping. It also meant when I went to a smaller screen size the buttons where responsive and fitted appropriately onto two line.
-* when moving to smaller screens i noticed the large picture at that op of the page caused everything to move down and leave a big gap between the picture and paragraph. I noticed that I had the min height of the picture set to 360px in my css. I removed this and this allowed the rest of the page ot move up and leave no unnecessary gaps.
+* The Pawcation header was slightly to the left of the screen on all screen sizes. When testing this I found the navbar- heading was set with 15px padding right and 0 padding left. I fixed this by changing the padding to 15 px on the left too. This ensure it remained centred on all screen sizes.
+* When I reduced the screen to anything smaller than large screen size, I noticed that all my button where being stacked on top of each other in a column. Also, the last two buttons where overlapping each other. This did not look pleasing on the eye. Speaking with my mentor he suggested I use a flexbox for my buttons. I used a flex-container to wrap my buttons which allowed for appropriate spacing between them stopping the overlapping. It also meant when I went to a smaller screen size the buttons where responsive and fitted appropriately onto two line.
+* When moving to smaller screens I noticed the large picture at the top of the page caused everything to move down and leave a big gap between the picture and paragraph. I noticed that I had the min height of the picture set to 360px in my css. I removed this and this allowed the rest of the page ot move up and leave no unnecessary gaps.
 * One issue I had with the JavaScript was adding info windows. As the code I found from Traversy media you tube video was different I had to change my code from the previous code institute video for rendering the map on the page to allow me to insert the info window.  Once I done this however it allowed me to insert info windows with no issues. 
 * When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it. I copied and pasted the code and it added the necessary code to fix this.
 
@@ -90,10 +90,10 @@ git clone https://github.com/USERNAME/REPOSITORY
 * Press Enter to create your local clone.
 
 ## Credits
-* credit goes to Rahul Lakhanpal my mentor for all his help on this course.
+* Credit goes to Rahul Lakhanpal my mentor for all his help on this course.
 ### Content
 * Adding markers with info windows was used from travery media from his youtube channel.
-* buttons added to change the center of the map to specific county. code solution found on stack overflow.
+* Buttons added to change the center of the map to specific county. code solution found on stack overflow.
 ### Media
 * Footer social icons were taken from the "rosie cv" module.
 * The large logo picture at the top was a stock photo taken from [https://www.shutterstock.com](https://www.shutterstock.com/home).
