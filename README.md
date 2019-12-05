@@ -5,7 +5,7 @@ Please click on link to see my full working webpage for [Pawcation](https://mart
 My second milestone project is webpage with .
 ## UX
 ### Who is the target audience?
-*	This website is for people wanting to take a holiday but also bring there pet with them
+*	This website is for people wanting to take a holiday but also bring there pet with them.
 *	holiday makers from the south of ireland and gret britain looking for a posisble city break with their dog.
 
 ### How does this attract our target audience?
@@ -25,9 +25,12 @@ The user gets a brief outline about what the pawcation website is about, what ex
 *	[Google Fonts](https://fonts.google.com/) - Used to style the fonts of the website.
 *	[jQuery](https://jquery.com/) - To make certain features function on the page.
 *	[git](https://github.com/)- Used as a repository
-*	[aws educate](https://aws.amazon.com/education/awseducate/)- Used for a development and testing area.
+*	[Gitpod](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki)- Used for a development and testing area.
 *	[Bootstrap](https://www.bootstrapcdn.com/) - Bootstrap framework to create responsive design and 
 *	[fontawesome](https://fontawesome.com/) for social media icons.
+*	[google.maps javascript api](https://developers.google.com/maps/documentation/javascript/tutorial) used to get my api key and render my map onto the webpage. Also used for adding markers and info windows.
+*	[email.js](https://www.emailjs.com/) used to connect my contact form with my gmail to be notified when someone sends a request. 
+
 ## Features
 ### Feature 1 – Navigation Bar
 The navigation bar to take the customers direct to certain features on the website. This collapses into a 'burger icon' dropdown menu in mobile screen sizes to reduce over-crowding and give smaller screen sizes a nicer look.
@@ -43,6 +46,7 @@ Allows the customer to connect and follow the craftsman’s other pages.
 * Add a payment feature for sticks available.
 * A review section to let people know of other customers experience when buying hurls form this maker.
 * Create a section to share information about the art of Stick making and some events that the maker will have coming up at local hurley clubs clubs. 
+
 ## Testing
 * Used Google Chrome developer tools to test website responsiveness across multiple devices such as Tablets and Mobiles.
 * Tested that the nav links worked and took they customer to the desired section of the website. Tests on all device sizes when in ‘burger icon’. 
@@ -55,10 +59,10 @@ Allows the customer to connect and follow the craftsman’s other pages.
 * The pictures of the hurls where leaking over into the next container and stretching passed their container when on smaller screen sizes. I used flex classes from bootstrap to allow for a more responsive and flowing change to how many pictures where on each row. This allowed for all picture to stay with their container. 
 * When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it. I copied and pasted the code and it added the necessary code to fix this.
 ## Deployment
-The website was developed using AWS educate cloud9, it was then committed to git and pushed to GitHub using the terminal in Cloud9.
+The website was developed using Gitpod, it was then committed to git and pushed to GitHub using the terminal in Gitpod.
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 * Log into GitHub.
-* Select the repository martinmaguire89/milestone_project_1.
+* Select the repository martinmaguire89/milestone_project_2.
 * At the top of the page, select Settings.
 * Scroll down to the GitHub Pages section.
 *Under Source, select Master Branch
