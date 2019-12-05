@@ -1,5 +1,5 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
-
+/*--------------------------------------------------navbar */
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
@@ -20,6 +20,7 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+/*--------------------------------------------------navbar */
 .logo {
     background: url("../images/dogonhols.jpg");
     background-position: center;
@@ -121,6 +122,7 @@ button[type="submit"] {
         -ms-flex-pack: center;
             justify-content: center;
 }
+/*--------------------------------------------------footer */
 social-links {
     padding-bottom: 15px;
 }
@@ -158,3 +160,4 @@ footer {;
     color:#000000;
 
 }
+/*--------------------------------------------------footer */
