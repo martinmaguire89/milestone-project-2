@@ -2,7 +2,8 @@
 # Pawcation
 Please click on link to see my full working webpage for [Pawcation](https://martinmaguire89.github.io/milestone-project-2/).
 
-My second milestone project is webpage with .
+My second milestone project is an interactive front-end site. The site allows potential users to interact with the site and search the map for places to stay that are dog friendly. The buttons allow for the user to narrow down their search for specific arrears in Northern Ireland. 
+
 ## UX
 ### Who is the target audience?
 *	This website is for people wanting to take a holiday but also bring there pet with them.
