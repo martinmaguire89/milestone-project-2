@@ -97,3 +97,10 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 4px;
+    justify-content: center;
+}
