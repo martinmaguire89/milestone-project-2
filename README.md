@@ -92,4 +92,4 @@ All content on the page was written by me.
 ### Media
 * Footer social icons were taken from the "rosie cv" module and navbar from the whiskey drop project.
 * The large logo picture at the top was a stock photo taken from [https://www.shutterstock.com](https://www.shutterstock.com/home).
-This is for educational use.
+* This is for educational use.
