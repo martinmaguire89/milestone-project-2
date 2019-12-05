@@ -91,7 +91,5 @@ git clone https://github.com/USERNAME/REPOSITORY
 All content on the page was written by me.
 ### Media
 * Footer social icons were taken from the "rosie cv" module and navbar from the whiskey drop project.
-* The large logo picture at the top was a stock photo taken from [www.pexels.com](www.pexels.com).
-* You Tube videos where taken from [Teagasc](https://www.youtube.com/channel/UCgeZtt-RlB7yh6jDkdv2i8A) and [wide ball page](https://www.youtube.com/channel/UC2EwQtsXBLa5eEc0doaZsLg).
-* The gallery photos were taken from a stock provided by Emmet Martin. 
+* The large logo picture at the top was a stock photo taken from [https://www.shutterstock.com](https://www.shutterstock.com/home).
 This is for educational use.
