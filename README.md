@@ -60,8 +60,11 @@ Allows the customer to connect and follow me through my social media accounts.
 * Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS. I copied my code and pasted it into the validator to check for errors and warnings.
 
 ## Issues when Testing
-* On certain screen sizes smaller than a large view all sections where being pushed to the left leaving a long blue column down the right making the page look unappealing of smaller screens. This was due to the YouTube videos no being responsive. I used iframe css to make the videos become more responsive when on smaller screen to the original size of the videos.
-* The pictures of the hurls where leaking over into the next container and stretching passed their container when on smaller screen sizes. I used flex classes from bootstrap to allow for a more responsive and flowing change to how many pictures where on each row. This allowed for all picture to stay with their container. 
+* On certain screen sizes smaller than a large view all the heading where beign pushed to the left along with the submit button. I corrected this by text centering all headidng an the submit so that if flowed nicley when going to smaller screens and remaiend in the middle.
+* The pawcation header was slightly to the left of the screen on all screen sizes. When testing this I found the navbar- heading was set with 15px padding right and 0 padding left. I fixed this by changing the padding to 15 px on the left too. This ensure it remained centred on all screen sizes.
+* when I reduced the screen to anything smaller than large screen size I noticed that all my button where being stacked on top of each other in a column. Also, the last two buttons where overlapping each other. This did not look pleasing on the eye. Speaking with my mentor he suggested I use a flexbox for my buttons. I used a flex-container to wrap my buttons which allowed for appropriate spacing between them stopping the overlapping. It also meant when I went to a smaller screen size the buttons where responsive and fitted appropriately onto two line.
+* when moving to smaller screens i noticed the large picture at that op of the page caused everything to move down and leave a big gap between the picture and paragraph. I noticed that I had the min height of the picture set to 360px in my css. I removed this and this allowed the rest of the page ot move up and leave no unnecessary gaps.
+* One issue I had with the JavaScript was adding info windows. As the code I found from Traversy media you tube video was different I had to change my code from the previous code institute video for rendering the map on the page to allow me to insert the info window.  Once I done this however it allowed me to insert info windows with no issues. 
 * When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it. I copied and pasted the code and it added the necessary code to fix this.
 
 ## Deployment
@@ -87,9 +90,11 @@ git clone https://github.com/USERNAME/REPOSITORY
 * Press Enter to create your local clone.
 
 ## Credits
+* credit goes to Rahul Lakhanpal my mentor for all his help on this course.
 ### Content
-All content on the page was written by me.
+* Adding markers with info windows was used from travery media from his youtube channel.
+* buttons added to change the center of the map to specific county. code solution found on stack overflow.
 ### Media
-* Footer social icons were taken from the "rosie cv" module and navbar from the whiskey drop project.
+* Footer social icons were taken from the "rosie cv" module.
 * The large logo picture at the top was a stock photo taken from [https://www.shutterstock.com](https://www.shutterstock.com/home).
 * This is for educational use.
