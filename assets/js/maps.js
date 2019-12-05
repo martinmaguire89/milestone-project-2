@@ -8,7 +8,7 @@ function initMap() {
 
       // New map
       var map = new google.maps.Map(document.getElementById('map'), options);
-        //buttons added to chnage the center of the map to specific county. code solution found on stack overflow//
+        //buttons added to change the center of the map to specific county. code solution found on stack overflow//
       google.maps.event.addDomListener(document.getElementById('antrim'), 'click', function () {
 
         map.setCenter(new google.maps.LatLng(54.980650,-6.119997));
@@ -142,7 +142,7 @@ function initMap() {
 				'http://www.travelodge.ie/hotels/225/Derry-hotel</a></p>'
          },
       ];
-      // Array of markers showing places to stay that are dog friendly
+      // Array of markers showing places to stay that are dog friendly//
 
       // Loop through markers
       for(var i = 0;i < markers.length;i++){
@@ -169,3 +169,4 @@ function initMap() {
         }
       }
     }
+    // js was found form a youtube vide form traverysmedia//
